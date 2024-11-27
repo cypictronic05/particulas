@@ -5,9 +5,9 @@ let particleB;
 let particleC;
 
 function setup() {
-  createCanvas(500, 300);
-  particleA = new Particle(220, 60);
-  particleB = new Particle(220, 200);
+  createCanvas(400, 200);
+  particleA = new Particle(120, 60);
+  particleB = new Particle(120, 200);
   particleC = new Particle(50, 50);
 }
 
