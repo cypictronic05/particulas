@@ -6,7 +6,7 @@ class Particle {
       this.velocity.mult(random(2, 6));
       this.acceleration = createVector(0, 0);
       this.mass = random(2, 6);
-      this.r = sqrt(this.mass) * 20;
+      this.r = sqrt(this.mass) * 15;
     }
   
     applyForce(force) {
