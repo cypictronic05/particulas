@@ -9,6 +9,7 @@ function setup() {
   particleA = new Particle(120, 60);
   particleB = new Particle(120, 200);
   particleC = new Particle(50, 50);
+  particleD = new Particle(50, 50);
 }
 
 
@@ -18,6 +19,8 @@ function draw() {
   particleA.collide(particleB);
   particleA.collide(particleC);
   particleB.collide(particleC);
+  particleB.collide(particleD);
+  particleA.collide(particleD);
 
   particleA.update();
   particleB.update();
@@ -26,10 +29,12 @@ function draw() {
   particleA.edges();
   particleB.edges();
   particleC.edges();
+  particleD.edges();
 
   particleA.show();
   particleB.show();
   particleC.show();
+  particleD.show();
 
 
 }
