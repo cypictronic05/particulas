@@ -18,9 +18,10 @@ function draw() {
 
   particleA.collide(particleB);
   particleA.collide(particleC);
+  particleA.collide(particleD);
   particleB.collide(particleC);
   particleB.collide(particleD);
-  particleA.collide(particleD);
+  particleC.collide(particleD);
 
   particleA.update();
   particleB.update();

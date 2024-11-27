@@ -4,8 +4,8 @@ body {
     justify-content: center;
     flex-wrap: nowrap;
     align-items: center;
-    height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
-    background-color: blue; /* Color de fondo del body */
+    /*height: 100vh;  Asegura que el body ocupe toda la altura de la ventana */
+    background-color: blue; 
   }
 
   h1{
